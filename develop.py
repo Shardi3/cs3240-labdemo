@@ -3,11 +3,8 @@
 
 __author__ = "myl2vu"
 
-import sys
 from helper import greeting
+import hello
 
 if __name__ == '__main__':
-
-    greeting("hello")
-    greeting("I am changing hello.py after adding master_file.py.")
-
+    greeting("I am calling greeting() function because I can do so.")
