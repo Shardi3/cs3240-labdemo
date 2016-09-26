@@ -3,8 +3,8 @@
 
 __author__ = "myl2vu"
 
-import sys
 from helper import greeting
+import hello
 
 if __name__ == '__main__':
-    greeting("Hello!")
+    greeting("I am calling greeting() function because I can do so.")
